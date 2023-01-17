@@ -54,6 +54,7 @@ public class GamePanel extends JFrame {
         //JFrame settings
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(true);
+        this.setVisible(true);
         this.setJMenuBar(menuBar);
         this.setTitle("Wizard Idler");
 
@@ -64,9 +65,6 @@ public class GamePanel extends JFrame {
         createBorder();
 
         this.setSize(1200,900);
-
-        this.setVisible(true);
-
     }
 
     public void update(){
